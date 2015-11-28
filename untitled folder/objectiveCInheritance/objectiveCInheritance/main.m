@@ -8,6 +8,7 @@
 #import "Shape.h"
 #import "Circle.h"
 #import "Rectangle.h"
+#import "Button.h""
 
 #import <Foundation/Foundation.h>
 
@@ -24,6 +25,12 @@ int main(int argc, const char * argv[]) {
         [rect setWidth:10];
         rect.height = 100;
         NSLog(@"area of rectangle %f",[rect area]);
+        
+        
+        Button *roundButton = [[Button alloc] init];
+        roundButton.shape = round;
+         
+        
         
         
     }

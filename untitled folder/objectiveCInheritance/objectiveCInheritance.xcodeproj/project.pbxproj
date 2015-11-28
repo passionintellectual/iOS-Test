@@ -11,6 +11,7 @@
 		04FA00DC1C09BF80000CD1B9 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA00DB1C09BF80000CD1B9 /* Shape.m */; settings = {ASSET_TAGS = (); }; };
 		04FA00DF1C09C0B4000CD1B9 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA00DE1C09C0B4000CD1B9 /* Circle.m */; settings = {ASSET_TAGS = (); }; };
 		04FA00E21C09C2F3000CD1B9 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA00E11C09C2F3000CD1B9 /* Rectangle.m */; settings = {ASSET_TAGS = (); }; };
+		04FA00E51C09C7CD000CD1B9 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA00E41C09C7CD000CD1B9 /* Button.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		04FA00DE1C09C0B4000CD1B9 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Circle.m; path = objectiveCInheritance/Circle.m; sourceTree = "<group>"; };
 		04FA00E01C09C2F3000CD1B9 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = objectiveCInheritance/Rectangle.h; sourceTree = "<group>"; };
 		04FA00E11C09C2F3000CD1B9 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rectangle.m; path = objectiveCInheritance/Rectangle.m; sourceTree = "<group>"; };
+		04FA00E31C09C7CD000CD1B9 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Button.h; path = objectiveCInheritance/Button.h; sourceTree = "<group>"; };
+		04FA00E41C09C7CD000CD1B9 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Button.m; path = objectiveCInheritance/Button.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +53,8 @@
 		04FA00C71C09BF5F000CD1B9 = {
 			isa = PBXGroup;
 			children = (
+				04FA00E31C09C7CD000CD1B9 /* Button.h */,
+				04FA00E41C09C7CD000CD1B9 /* Button.m */,
 				04FA00E01C09C2F3000CD1B9 /* Rectangle.h */,
 				04FA00E11C09C2F3000CD1B9 /* Rectangle.m */,
 				04FA00DA1C09BF80000CD1B9 /* Shape.h */,
@@ -135,6 +140,7 @@
 			files = (
 				04FA00DF1C09C0B4000CD1B9 /* Circle.m in Sources */,
 				04FA00D41C09BF5F000CD1B9 /* main.m in Sources */,
+				04FA00E51C09C7CD000CD1B9 /* Button.m in Sources */,
 				04FA00DC1C09BF80000CD1B9 /* Shape.m in Sources */,
 				04FA00E21C09C2F3000CD1B9 /* Rectangle.m in Sources */,
 			);
